@@ -3,9 +3,21 @@
   <head>
     <link rel="stylesheet" href="http://ol3js.org/en/master/build/ol.css" type="text/css">
     <style>
+      body, html {
+        height: 98%;
+        font-family: arial;
+        margin: 0;
+      }
+
       .map {
-        height: 600px;
+        height: 70%;
         width: 100%;
+      }
+      a:visited, a {
+        color: #29A7F1
+      }
+      h2, p {
+        margin-left: 0.5em;
       }
     </style>
     <script src="ol-simple.js" type="text/javascript"></script>
@@ -15,6 +27,12 @@
   <body onload="init();">
     <h2>OpenLayers 3</h2>
     <div id="map" class="map"></div>
+    <p>
+      This page shows how to use OpenLayers 3 with EPSG:3067 projection.
+      It uses v3.0.0-beta.1 version of OL library. See the <a href="code.js">source</a>.<br>
+      Vector layers on map are from <a href="http://hip.latuviitta.org/">Latuviitta.org</a> WFS server.<br>
+      Download source from <a href="https://github.com/jleh/OpenLayers3Demo">Github</a>.
+    </p>
     <script type="text/javascript" src="code.js"></script>
   </body>
 </html>
