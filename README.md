@@ -1,4 +1,4 @@
 OpenLayers3Demo
 ===============
 
-Shows
+OpenLayers 3 kartta, jossa esillä suomalaista avointa paikkatietoa.
